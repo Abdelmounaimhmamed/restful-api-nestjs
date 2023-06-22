@@ -1,0 +1,78 @@
+
+
+
+
+Tout d'abord, je suis honoré de travailler sur ce sujet qui est très intéressant.
+
+Le stage est basé sur le développement d'une application de rencontres amicales, et, le cas échéant, d'une plateforme d'aide aux organisateurs, aux nouveaux arrivants en ville et aux échanges linguistiques.
+
+La vidéo présente le design d'une application mobile qui doit être convertie en une application web déjà finalisée. Ce design est composé de plusieurs pages interconnectées, respectant des règles de sécurité et d'authentification à chaque étape lors de la transition d'une interface à une autre.
+
+L'application est composée en premier lieu d'un processus de connexion. Il offre la possibilité de naviguer à travers les activités, les participants et les notifications. Chaque utilisateur dispose d'un profil personnel qu'il peut consulter, contenant des informations détaillées à son sujet.
+
+De plus, il y a une liste détaillée des activités. De même, il y a une section dédiée aux invitations pour chaque utilisateur.
+
+Pour collaborer sur ce travail, nous devons créer des instances sur OVH Cloud.
+De plus, nous devons acquérir la connaissance nécessaire pour créer et gérer des instances dans le Public Cloud.
+
+
+
+Pour créer des instances et effectuer des connexions SSH au serveur, nous devons procéder comme suit :
+
+Établir une connexion SSH vers le serveur : Utilisez une machine Linux pour vous connecter au serveur à l'aide d'une connexion SSH sécurisée. Cela vous permettra d'accéder au serveur à distance et de gérer les configurations.
+
+Installation des packages : Une fois connecté au serveur via SSH, vous pouvez installer les packages nécessaires. Assurez-vous d'installer les dépendances requises pour le développement Node.js et MongoDB.
+
+Configuration de l'environnement de développement : Après avoir installé les packages, vous pouvez configurer l'environnement de développement Node.js et MongoDB selon vos besoins. Cela peut inclure la configuration des fichiers de démarrage, l'activation des fonctionnalités spécifiques, la gestion des variables d'environnement, etc.
+
+En résumé, vous devrez établir une connexion SSH depuis votre machine vers les instances du serveur sur OVH. Cela vous permettra d'effectuer des configurations et de mettre en place l'environnement de développement pour Node.js et MongoDB.
+
+
+En ce qui concerne le design, il est très bénéfique d'avoir les maquettes disponibles, car cela facilite grandement le processus de développement et accélère le travail. La première étape consiste en une série de processus de connexion.
+
+Cela comprend les étapes suivantes : login -> register -> password, qui sont constituées de 4 interfaces différentes. La dernière interface inclut une vérification par e-mail.
+
+Ensuite, nous avons le profil de l'utilisateur qui contient plusieurs champs à remplir. L'étape du profil utilisateur est généralement constituée de 4 interfaces distinctes.
+
+Troisièmement, nous avons le planning des loisirs qui comprend trois onglets distincts. Le premier onglet affiche la liste des plannings disponibles. Le deuxième onglet permet de filtrer les résultats en fonction de critères tels que la ville, l'âge, etc.
+
+Dans la quatrième partie, nous avons la page détaillée et le groupe de discussion pour chaque activité.
+
+En cinquième partie, nous avons la création d'une nouvelle activité, qui comprend trois interfaces distinctes :
+
+La première interface est un formulaire pour la création de l'activité. Elle comprend des champs tels que le titre de l'activité et l'adresse de l'activité.
+
+La deuxième interface permet de choisir un sujet pour l'activité.
+
+La troisième interface permet de personnaliser l'activité en ajoutant une photo représentative, une description détaillée, ainsi que des informations sur la personne qui organise cette activité.
+
+Ces interfaces permettent aux utilisateurs de créer de nouvelles activités en fournissant toutes les informations nécessaires.
+
+
+Dans la cinquième partie, nous avons la création d'une nouvelle activité, qui est constituée de trois interfaces distinctes :
+
+La première interface contient un formulaire pour la création de l'activité. Elle comprend des champs tels que le titre de l'activité et l'adresse de l'activité.
+
+La deuxième interface permet de choisir un sujet pour l'activité.
+
+La troisième interface permet de personnaliser l'activité en ajoutant une photo significative, une description détaillée, ainsi que des informations sur la personne qui organise cette activité et comment la contacter.
+
+Ces interfaces permettent aux utilisateurs de créer de nouvelles activités en fournissant toutes les informations nécessaires, pour rendre l'activité attrayante et faciliter la communication avec l'organisateur.
+
+Ensuite, nous avons un système de notifications et d'invitations. De plus, nous avons la géolocalisation des activités et des utilisateurs, ainsi que la fonctionnalité de messagerie privée.
+
+
+
+En résumé :
+
+L'application se compose de 6 phases, chacune contenant des interfaces à développer. Les phases comprennent :
+
+Application en anglais.
+Partage d'activités et rencontres.
+Réception de notifications pour participer et interagir en groupe avec des commentaires.
+Géolocalisation des activités.
+Messagerie privée.
+Deux options supplémentaires : géolocalisation des activités et messages privés.
+L'objectif de l'application est de faciliter l'intégration des nouveaux arrivants dans une ville.
+
+Les technologies, outils et base de données que nous utiliserons sont : Node.js, MongoDB et Adminforest.
